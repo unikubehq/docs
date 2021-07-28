@@ -1,0 +1,19 @@
+{
+  "name": "unikube-docs",
+  "version": "0.0.1",
+  "description": "Unikube documentation, cloud native knowledgebase",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": "tobias@blueshoe.de"
+  },
+  "repository": "https://github.com/unikubehq/docs/unikube-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
