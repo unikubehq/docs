@@ -2,6 +2,11 @@ const { description } = require('../../package')
 
 module.exports = {
   /**
+   * Webpack Stuff
+   */
+  base: "/docs/",
+
+  /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Vuepress Docs Boilerplate',
