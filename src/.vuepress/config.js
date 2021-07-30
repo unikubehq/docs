@@ -37,7 +37,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    logo: '/img/Unikube-Logo-Icon.png',
+    logo: '/img/Unikube-Logo-H.svg',
     nav: [
       {
         text: 'Kubernetes',
