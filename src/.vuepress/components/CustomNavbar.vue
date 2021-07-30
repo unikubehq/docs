@@ -89,8 +89,8 @@ $navbar-horizontal-padding = 1.5rem
   a, span, img
     display inline-block
   .logo
-    height $navbarHeight - 1.4rem
-    min-width $navbarHeight - 1.4rem
+    height 45px
+    width auto
     margin-right 0.8rem
     vertical-align top
   .site-name

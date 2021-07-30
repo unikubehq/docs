@@ -40,28 +40,24 @@ module.exports = {
     logo: '/img/Unikube-Logo-Icon.png',
     nav: [
       {
-        text: 'Guide me hehehehe!',
-        link: '/guide/',
+        text: 'Kubernetes',
+        link: '/kubernetes/'
       },
       {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Unikube',
+        link: 'https://app.unikube.io/'
       }
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
+      '/kubernetes/': [
+          {
+            title: 'Kubernetes',
+            collapsable: false,
+            children: [
+              '',
+              'k8s-in-prod',
+            ]
+          }
       ],
     }
   },

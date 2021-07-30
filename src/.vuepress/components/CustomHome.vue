@@ -39,8 +39,10 @@
         :key="index"
         class="feature"
       >
-        <img :src="feature.icon" alt="">
-        <h2>{{ feature.title }}</h2>
+        <a :href="feature.url">
+          <img :src="feature.icon" alt="">
+          <h2>{{ feature.title }}</h2>
+        </a>
       </div>
     </div>
 
