@@ -1,0 +1,18 @@
+steps:
+# frontend app
+- name: node:14
+  entrypoint: npm
+  args: ['install']
+  dir: '.'
+#
+# Build storybook for Winter&Company.
+#
+- name: node:14
+  entrypoint: npm
+  args: ['run', 'build']
+  env:
+    - 'NODE_ENV=production'
+  dir: '.'
+
+- name: gcr.io/cloud-builders/gsutil
+  args: ["-m", "rsync", "-r", "-c", "-d", "./dist", "gs://unikube-docs"]
