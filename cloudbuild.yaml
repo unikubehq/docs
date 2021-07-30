@@ -15,4 +15,4 @@ steps:
   dir: '.'
 
 - name: gcr.io/cloud-builders/gsutil
-  args: ["-m", "rsync", "-r", "-c", "-d", "./dist", "gs://unikube-docs"]
+  args: ["-m", "rsync", "-r", "-c", "-d", "./.vuepress/dist", "gs://unikube-docs"]
