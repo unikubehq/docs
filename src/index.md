@@ -7,8 +7,9 @@ features:
 - title: Kubernetes
   icon: /docs/icons/icons-small-organization-roles-blue.svg
   url: /docs/kubernetes/
-- title: Feature 2 Title
+- title: Knowledgebase
   icon: /docs/icons/icons-small-organization-roles-blue.svg
+  url: /docs/knowledgebase/
 - title: Feature 3 Title
   icon: /docs/icons/icons-small-organization-roles-blue.svg
 - title: Feature 3 Title
