@@ -116,7 +116,7 @@ export default {
 
 <style lang="stylus">
 #app
-  background-image url("/img/docs_bg.svg")
+  background-image url("/docs/img/docs_bg.svg")
   background-position bottom
   background-repeat no-repeat
   background-size cover
