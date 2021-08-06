@@ -52,7 +52,43 @@
       v-if="data.footer"
       class="footer"
     >
-      {{ data.footer }}
+      <div class="footer-flex">
+        <div class="footer-section">
+          <img :src="data.footer.icons" alt="Blueshoe/Unikube Logos">
+          <span class="footer-tagline">
+            {{ data.footer.iconTagline }}
+          </span>
+        </div>
+        <div class="footer-section">
+          <ul>
+            <li>
+              <a :href="data.footer.contact.emailUrl">
+                {{ data.footer.contact.email }}
+              </a>
+            </li>
+            <li>
+              <a :href="data.footer.contact.phoneUrl">
+                {{ data.footer.contact.phoneUrl }}
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section" v-for="section in data.footer.linkSections">
+          <!-- TODO Add section titles-->
+          <ul>
+            <li v-for="sec in section">
+              <a :href="sec.url">{{ sec.title }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-flex bottom">
+        <span>{{ data.footer.copyright }}</span>
+        <span>
+          <a :href="data.footer.imprint">Imprint</a> |
+          <a :href="data.footer.privacy">Privacy</a>
+        </span>
+      </div>
     </div>
   </main>
 </template>
@@ -79,6 +115,11 @@ export default {
 </script>
 
 <style lang="stylus">
+#app
+  background-image url("/img/docs_bg.svg")
+  background-position bottom
+  background-repeat no-repeat
+  background-size cover
 .home
   padding $navbarHeight 2rem 0
   max-width $homePageWidth
@@ -133,10 +174,11 @@ export default {
     background-color #9faed9
     box-shadow 5px 5px 14px 9px #E3E3E3
     img
-      width 80%
+      width 30%
       height auto
       margin auto
       display block
+      padding 1.5em 0
     h2
       font-size 1.4rem
       font-weight 500
@@ -151,8 +193,25 @@ export default {
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
-    text-align center
-    color lighten($textColor, 25%)
+    color #656E77
+    a
+      color #656E77
+    .footer-flex
+      display flex
+      flex-direction row
+      justify-content space-between
+    .bottom
+      padding-top 10em
+    .footer-section
+      display flex
+      flex-direction column
+      img
+        width 128px
+        height auto
+      ul
+        list-style-type none
+    .footer-tagline
+      max-width 200px
 @media (max-width: $MQMobile)
   .home
     .features

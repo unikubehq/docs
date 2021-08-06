@@ -13,5 +13,26 @@ features:
   icon: /docs/icons/icons-small-organization-roles-blue.svg
 - title: Feature 3 Title
   icon: /docs/icons/icons-small-organization-roles-blue.svg
-footer: Made by  with ❤️
+footer:
+  copyright: © Unikube 2021 © Blueshoe GmbH 2021
+  icons: /docs/icons/footer_icons.svg
+  iconTagline: Unikube powered by Blueshoe Digital Products
+  imprint: https://www.blueshoe.de/impressum
+  privacy: https://www.blueshoe.de/datenschutz/
+  contact:
+    email: unikube@blueshoe.de
+    phone: +49 89 954 594 235
+    emailUrl: mailto:unikube@blueshoe.de
+    phoneUrl: tel:+49 89 954 594 235
+  linkSections:
+    BlueshoeSection:
+    - title: Blueshoe
+      url: https://www.blueshoe.de
+    - title: List of Features
+      url: https://unikube.io
+    UnikubeSection:
+    - title: Unikube
+      url: https://www.blueshoe.de
+    - title: List of Features
+      url: https://unikube.io
 ---
