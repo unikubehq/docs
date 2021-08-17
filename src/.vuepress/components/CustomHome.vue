@@ -194,12 +194,14 @@ export default {
     padding 2.5rem
     border-top 1px solid $borderColor
     color #656E77
+    text-align left
     a
       color #656E77
     .footer-flex
       display flex
       flex-direction row
       justify-content space-between
+      flex-wrap wrap
     .bottom
       padding-top 10em
     .footer-section
@@ -216,9 +218,15 @@ export default {
   .home
     .features
       flex-direction column
+      align-content center
     .feature
       max-width 100%
-      padding 0 2.5rem
+      width 60%
+      padding 0
+      margin-bottom 2em
+    .search-box
+      max-width 80%
+      margin auto
 @media (max-width: $MQMobileNarrow)
   .home
     padding-left 1.5rem
