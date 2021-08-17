@@ -46,6 +46,10 @@ module.exports = {
         link: '/kubernetes/'
       },
       {
+        text: 'Knowledge Base',
+        link: '/knowledge-base/'
+      },
+      {
         text: 'Unikube',
         link: 'https://app.unikube.io/'
       }
@@ -58,6 +62,16 @@ module.exports = {
             children: [
               '',
               'k8s-in-prod',
+            ]
+          }
+      ],
+       '/knowledge-base/': [
+          {
+            title: 'Knowledge Base',
+            collapsable: false,
+            children: [
+              '',
+              'cloud-native-development',
             ]
           }
       ],
