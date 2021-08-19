@@ -1,9 +1,7 @@
 # Containerization
 
-Containerization oder Containerisierung bedeutet in der Software- und Webentwicklung, dass Anwendungen so **in einem einzelnen Paket (Container) verpackt** werden, dass die Anwendung autark und verlässlich auf jeglicher Infrastruktur laufen kann.
+In software and web development, containerization means that **applications are packaged in a single package (container)** in such a way that the application can run independently and reliably on any infrastructure. This means that all dependencies and all the code for the application run in the aforementioned standardized container.
 
-Das heißt, dass auch alle Abhängigkeiten (dependencies) und der gesamte Code für die Anwendung in besagtem standardisierten Container laufen.  
-
-Mittels Containerization können Softwareentwickler **schneller und stabiler Anwendungen entwickeln,** da die Komplexität der Portierung der Anwendung zwischen verschiedenen Infrastrukturen (z. B. von lokal hin zu einer VM) praktisch eliminiert wird.
+With containerization, software developers can develop applications **faster and more stable**, since the complexity of porting the application between different infrastructures (e.g. from local to a VM) is practically eliminated.
   
-Auch wenn das Konzept rund um die Isolierung von Prozessen und Containerization nicht neu ist, so war es vor allem der **Aufstieg der Docker Engine**, der dafür sorgte, dass Containerization sich flächendeckend in der Softwareentwicklung durchgesetzt hat.
+Even if the concept of process isolation and containerization is not new, it was above all the **rise of the Docker Engine** that ensured that containerization has established itself across the board in software development.
