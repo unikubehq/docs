@@ -75,6 +75,7 @@ module.exports = {
               'containerization',
               'continuos-integration',
               'docker',
+              'microservices',
             ]
           }
       ],
