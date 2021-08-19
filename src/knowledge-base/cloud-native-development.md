@@ -1,11 +1,11 @@
 # Cloud Native Development
 
-Cloud Native Development beschreibt einen der bedeutendsten Paradigmenwechsel innerhalb der Softwareentwicklung seit Jahrzehnten. **Applikationen werden direkt für den Betrieb in der Cloud (private, public oder hybrid) entwickelt,** um skalierbare und stabile Softwareprodukte zu erschaffen, deren Wartung, Erweiterung und Betrieb um ein Vielfaches einfacher ist, als in nicht-Cloud-Umgebungen.
- 
-Typischerweise werden Cloud-Applikationen zumeist als **Microservices** entwickelt. Sprich, Anwendungen werden in unabhängige Teil-Dienste gekapselt, die miteinander kommunizieren, aber getrennt voneinander entwickelt und weiterentwickelt werden können.
+Cloud Native Development describes one of the most significant paradigm shifts within software development in decades. **Applications are developed directly for operation in the cloud (private, public or hybrid)** in order to create scalable and stable software products whose maintenance, expansion and operation are many times easier than in non-cloud environments.
 
-Diese Herangehensweise soll die Innovationsgeschwindigkeit von IT-Teams massiv steigern.
+Typically, cloud applications are **mostly developed as microservices.** In other words, applications are encapsulated in independent sub-services that communicate with one another, but can be developed separately from one another.
 
-Weitere Tools und Services, die in Verbindung mit Cloud Native Development sehr häufig eine Rolle spielen:
+This approach is intended to massively **increase the speed** of innovation in IT teams.
+
+Other tools and services that often play a role in connection with Cloud Native Development are:
 -   Docker
 -   Kubernetes
