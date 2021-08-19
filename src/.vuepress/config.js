@@ -73,6 +73,7 @@ module.exports = {
               '',
               'cloud-native-development',
               'containerization',
+              'continuos-integration',
             ]
           }
       ],
