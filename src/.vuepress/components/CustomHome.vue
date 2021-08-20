@@ -47,49 +47,6 @@
     </div>
 
     <Content class="theme-default-content custom" />
-
-    <div
-      v-if="data.footer"
-      class="footer"
-    >
-      <div class="footer-flex">
-        <div class="footer-section">
-          <img :src="data.footer.icons" alt="Blueshoe/Unikube Logos">
-          <span class="footer-tagline">
-            {{ data.footer.iconTagline }}
-          </span>
-        </div>
-        <div class="footer-section">
-          <ul>
-            <li>
-              <a :href="data.footer.contact.emailUrl">
-                {{ data.footer.contact.email }}
-              </a>
-            </li>
-            <li>
-              <a :href="data.footer.contact.phoneUrl">
-                {{ data.footer.contact.phoneUrl }}
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-section" v-for="section in data.footer.linkSections">
-          <!-- TODO Add section titles-->
-          <ul>
-            <li v-for="sec in section">
-              <a :href="sec.url">{{ sec.title }}</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-flex bottom">
-        <span>{{ data.footer.copyright }}</span>
-        <span>
-          <a :href="data.footer.imprint">Imprint</a> |
-          <a :href="data.footer.privacy">Privacy</a>
-        </span>
-      </div>
-    </div>
   </main>
 </template>
 
@@ -153,11 +110,7 @@ export default {
       border-bottom 1px solid darken($accentColor, 10%)
       &:hover
         background-color lighten($accentColor, 10%)
-    .search-box
-      width 35rem
-      input
-        width 100%
-        border-radius 0
+
 
   .features
     padding 1.2rem 0
@@ -190,30 +143,6 @@ export default {
       color lighten($textColor, 10%)
     p
       color lighten($textColor, 25%)
-  .footer
-    padding 2.5rem
-    border-top 1px solid $borderColor
-    color #656E77
-    text-align left
-    a
-      color #656E77
-    .footer-flex
-      display flex
-      flex-direction row
-      justify-content space-between
-      flex-wrap wrap
-    .bottom
-      padding-top 10em
-    .footer-section
-      display flex
-      flex-direction column
-      img
-        width 128px
-        height auto
-      ul
-        list-style-type none
-    .footer-tagline
-      max-width 200px
 @media (max-width: $MQMobile)
   .home
     .features
