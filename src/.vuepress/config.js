@@ -79,9 +79,34 @@ module.exports = {
             ]
           }
       ],
+       '/roadmap/': [
+          {
+            title: 'Roadmap',
+            collapsable: false,
+            children: [
+              'application-templating',
+              'asset-loader',
+              'audit-trail',
+              'chart-changelog',
+              'dns-resolution',
+              'dynamic-deck-creation',
+              'env-variable-documentation',
+              'env-variable-workflow',
+              'git-management',
+              'git-webhooks',
+              'github-actions',
+              'helm-overrides',
+              'k8s-manifest-quality-check',
+              'k8s-manifest-support',
+              'log-access',
+              'osx-brew',
+              'project-health-check',
+              'remote-clusters',
+            ]
+          },
+      ],
     }
   },
-
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */

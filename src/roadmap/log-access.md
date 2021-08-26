@@ -1,0 +1,1 @@
+# Access to logs for other environments

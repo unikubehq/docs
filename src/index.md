@@ -10,8 +10,9 @@ features:
 - title: Knowledge Base
   icon: /docs/icons/icons-small-organization-roles-blue.svg
   url: /docs/knowledge-base/
-- title: Feature 3 Title
+- title: Roadmap
   icon: /docs/icons/icons-small-organization-roles-blue.svg
+  url: /docs/roadmap/
 - title: Feature 3 Title
   icon: /docs/icons/icons-small-organization-roles-blue.svg
 ---
