@@ -28,3 +28,11 @@ h1, h2, h3, h4, h5, h6, p, a, .footer
   background-color #F5F5F6
 .footer ul
   padding-left 0
+
+
+// we need this because https://github.com/vuejs/vuepress/issues/2215 is not yet fixed,
+// without this some css won't make it to production. ¯\_(ツ)_/¯
+.content__default:not(.custom)
+  max-width 740px
+  margin 0 auto
+  padding 2rem 2.5rem
