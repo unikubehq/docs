@@ -1,6 +1,6 @@
 # Kubernetes
 
-Kubernetes is responsible for the orchestration of containers in software development. Kubernetes can be used to manage the running of containers. The best known container technology comes from Docker. 
+Kubernetes is responsible for the orchestration of containers in software development. Kubernetes can be used to manage the running of containers. The best known container technology comes from [Docker](./docker.md). 
 
 Kubernetes, also called K8s, is an open source system that consists entirely of automated processes. With the help of Kubernetes, software applications can be deployed and scaled much faster. In addition, Kubernetes helps with the administration and testing of applications.
 
