@@ -7,5 +7,5 @@ The use of microservices **increases flexibility** in application development, a
 An application typically consists of several different microservices that **communicate with each other via interfaces** such as REST.
 
 Other technologies related to microservices:
--   Docker
--   Kubernetes
+-   [Docker](./docker.md)
+-   [Kubernetes](./kubernetes.md)
