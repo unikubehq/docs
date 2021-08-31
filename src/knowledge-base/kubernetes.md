@@ -6,7 +6,7 @@ Kubernetes, also called K8s, is an open source system that consists entirely of 
 
 The Kubernetes architecture is based on containers, clusters, pods and nodes. 
 
- - Containers contain applications and software environment.  
+ - Containers contain applications and software environments.  
  - Pods gather all containers relevant to an application and run on nodes.
  - Nodes are virtual or real machines. 
  - Clusters are nodes that belong together.
