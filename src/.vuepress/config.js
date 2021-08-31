@@ -76,6 +76,7 @@ module.exports = {
               'continuous-integration',
               'docker',
               'microservices',
+              'kubernetes',
             ]
           }
       ],
