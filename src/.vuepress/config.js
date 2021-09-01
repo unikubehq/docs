@@ -80,6 +80,7 @@ module.exports = {
               'load-balancing',
               'application-cluster',
               'cloud-hosting',
+              'kubernetes-tools',
             ]
           }
       ],
