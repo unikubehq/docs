@@ -79,6 +79,7 @@ module.exports = {
               'kubernetes',
               'load-balancing',
               'application-cluster',
+              'cloud-hosting',
             ]
           }
       ],
