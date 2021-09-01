@@ -78,6 +78,7 @@ module.exports = {
               'microservices',
               'kubernetes',
               'load-balancing',
+              'application-cluster',
             ]
           }
       ],
