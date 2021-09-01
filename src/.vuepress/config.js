@@ -119,5 +119,12 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     require('./plugins/custom-footer')
-  ]
+  ],
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': '/'
+      }
+    }
+  }
 }
