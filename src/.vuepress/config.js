@@ -77,6 +77,7 @@ module.exports = {
               'docker',
               'microservices',
               'kubernetes',
+              'load-balancing',
             ]
           }
       ],
