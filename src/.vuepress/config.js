@@ -42,12 +42,12 @@ module.exports = {
     logo: '/img/Unikube-Logo-H.svg',
     nav: [
       {
-        text: 'Kubernetes',
-        link: '/kubernetes/'
-      },
-      {
         text: 'Knowledge Base',
         link: '/knowledge-base/'
+      },
+      {
+        text: 'Roadmap',
+        link: '/roadmap/'
       },
       {
         text: 'Unikube',
@@ -55,16 +55,6 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/kubernetes/': [
-          {
-            title: 'Kubernetes',
-            collapsable: false,
-            children: [
-              '',
-              'k8s-in-prod',
-            ]
-          }
-      ],
        '/knowledge-base/': [
           {
             title: 'Knowledge Base',
