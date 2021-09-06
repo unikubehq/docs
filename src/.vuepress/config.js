@@ -70,7 +70,6 @@ module.exports = {
             title: 'Knowledge Base',
             collapsable: false,
             children: [
-              '',
               'cloud-native-development',
               'containerization',
               'continuous-integration',
