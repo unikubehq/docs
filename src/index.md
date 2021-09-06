@@ -4,15 +4,10 @@ layout: CustomHome
 tagline: Knowledge Base for Cloud Native Development
 description: Unikube Wiki helps you find total peace of mind. Trust me!
 features:
-- title: Kubernetes
-  icon: /docs/icons/icons-small-organization-roles-blue.svg
-  url: /docs/kubernetes/
 - title: Knowledge Base
   icon: /docs/icons/icons-small-organization-roles-blue.svg
   url: /docs/knowledge-base/
 - title: Roadmap
   icon: /docs/icons/icons-small-organization-roles-blue.svg
   url: /docs/roadmap/
-- title: Feature 3 Title
-  icon: /docs/icons/icons-small-organization-roles-blue.svg
 ---
