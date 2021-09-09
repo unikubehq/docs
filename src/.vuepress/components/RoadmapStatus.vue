@@ -15,6 +15,13 @@
     </li>
   </ul>
 
+  <h3>Planned Features</h3>
+  <ul>
+    <li v-for="post in plannedFeatures">
+      <a :href="$withBase(post.path)">{{ post.title }}</a>
+    </li>
+  </ul>
+
   <h3>In Progress Features</h3>
   <ul>
     <li v-for="post in inProgressFeatures">
