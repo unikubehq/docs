@@ -1,3 +1,7 @@
+---
+status: available
+---
+
 # Named Cluster State
 
 **Summary**  

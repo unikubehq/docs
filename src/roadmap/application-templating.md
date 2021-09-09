@@ -1,1 +1,5 @@
+---
+status: available
+---
+
 # Application Templating

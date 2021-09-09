@@ -1,1 +1,5 @@
+---
+status: available
+---
+
 # DNS Resolution

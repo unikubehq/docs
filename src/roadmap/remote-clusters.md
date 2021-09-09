@@ -1,3 +1,7 @@
+---
+status: available
+---
+
 # Remote Cluster Provider
 
 **Summary**  
