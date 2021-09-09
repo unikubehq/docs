@@ -5,7 +5,7 @@ Restore an entire cluster state with one CLI command. That includes database con
 
 **Impacted Services**  
 - Requires a new services that stores and manages cluster states for projects and/or environments  
-- A new cli command group (such as "state apply <name\>") that pulls a "named state" and installs it to the respective services.
+- A new cli command group (such as "state apply <name\>") that pulls a "named state" and installs it to the respective services.  
 
 **Description**  
 When setting up environments for development or other purposes it becomes very cumbersome to install an initial datasets to a variety of services in a complex mesh. This could be the configuration and test users of an identity provider in a web application with multiple backend clients. Another example would be the state of the staging system in order to hunt bugs that occure only in conjuction of multiple services and data.  
