@@ -19,6 +19,7 @@ Unikube offers the creation of dedicated environments for a project.
 For more information on environments continue here.
 :::
 
+**Description**  
 For different environment, different helm values may be required to render the
 [Helm](https://helm.sh/) charts. Currently this is only possible by creating multiple
 value files or value directories within a helm chart repository.
