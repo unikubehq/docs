@@ -4,28 +4,28 @@
   <h3>Available Features</h3>
   <ul>
     <li v-for="post in availableFeatures">
-      <a :href="$withBase(post.path)">{{ post.title }} {{ post.frontmatter.status}}</a>
+      <a :href="$withBase(post.path)">{{ post.title }}</a>
     </li>
   </ul>
 
   <h3>Voting Features</h3>
   <ul>
     <li v-for="post in votingFeatures">
-      <a :href="$withBase(post.path)">{{ post.title }} {{ post.frontmatter.status}}</a>
+      <a :href="$withBase(post.path)">{{ post.title }}</a>
     </li>
   </ul>
 
   <h3>In Progress Features</h3>
   <ul>
     <li v-for="post in inProgressFeatures">
-      <a :href="$withBase(post.path)">{{ post.title }} {{ post.frontmatter.status}}</a>
+      <a :href="$withBase(post.path)">{{ post.title }}</a>
     </li>
   </ul>
 
   <h3>Done Features</h3>
   <ul>
     <li v-for="post in doneFeatures">
-      <a :href="$withBase(post.path)">{{ post.title }} {{ post.frontmatter.status}}</a>
+      <a :href="$withBase(post.path)">{{ post.title }}</a>
     </li>
   </ul>
 </div>
