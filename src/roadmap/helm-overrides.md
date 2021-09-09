@@ -1,6 +1,6 @@
 # Helm Overrides
 
-**Executive Summary**
+**Summary**
 
 Overwrite [Helm](https://helm.sh/) values with the help of Unikube. Lift the burden of creating
 multiple value files or directories for different stages/environments of your cluster.
