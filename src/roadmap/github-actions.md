@@ -1,5 +1,5 @@
 ---
-status: available
+status: voting
 ---
 
 # Github Actions Support

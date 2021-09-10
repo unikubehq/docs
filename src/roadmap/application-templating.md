@@ -1,5 +1,5 @@
 ---
-status: available
+status: voting
 ---
 
 # Application Templating

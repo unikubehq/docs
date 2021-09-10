@@ -1,5 +1,5 @@
 ---
-status: available
+status: voting
 ---
 
 # QA for k8s manifests

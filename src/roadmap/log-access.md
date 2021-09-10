@@ -1,5 +1,5 @@
 ---
-status: available
+status: voting
 ---
 
 # Access to logs for other environments

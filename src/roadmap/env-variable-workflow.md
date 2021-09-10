@@ -1,5 +1,5 @@
 ---
-status: available
+status: voting
 ---
 
 # Environment Request Approval Workflow

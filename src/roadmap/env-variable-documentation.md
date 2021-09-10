@@ -1,5 +1,5 @@
 ---
-status: available
+status: voting
 ---
 
 # Documentation for environment variables

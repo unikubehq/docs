@@ -1,5 +1,5 @@
 ---
-status: available
+status: planned
 ---
 
 # Named Cluster State

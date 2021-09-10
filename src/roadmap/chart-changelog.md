@@ -1,5 +1,5 @@
 ---
-status: available
+status: voting
 ---
 
 # Helm chart changelog

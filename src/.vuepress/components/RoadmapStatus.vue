@@ -1,12 +1,6 @@
 <template>
 <div>
   <h2>Feature Status</h2>
-  <h3>Available Features</h3>
-  <ul>
-    <li v-for="post in availableFeatures">
-      <a :href="$withBase(post.path)">{{ post.title }}</a>
-    </li>
-  </ul>
 
   <h3>Voting Features</h3>
   <ul>
@@ -32,6 +26,13 @@
   <h3>Done Features</h3>
   <ul>
     <li v-for="post in doneFeatures">
+      <a :href="$withBase(post.path)">{{ post.title }}</a>
+    </li>
+  </ul>
+
+  <h3>Available Features</h3>
+  <ul>
+    <li v-for="post in availableFeatures">
       <a :href="$withBase(post.path)">{{ post.title }}</a>
     </li>
   </ul>

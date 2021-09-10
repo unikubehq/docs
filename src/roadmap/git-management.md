@@ -1,5 +1,5 @@
 ---
-status: available
+status: voting
 ---
 
 # Advanced git management for projects 
