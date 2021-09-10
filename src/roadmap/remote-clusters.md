@@ -7,7 +7,7 @@ status: planned
 **Summary**  
 For larger projects with many services running a local Kubernetes cluster is not feasable anymore. Unikube will support user-based dedicated cluster connection handling for individual remote development clusters. For the CLI user it is not visible wether the cluster is local or remote.
 
- **Impacted Services**  
+**Impacted Services**  
 - Requires a new services that stores and manages cluster connections  
 - Frontend to integrate the connection details for users and environments  
 - The CLI pulls connection details upon `project up` and uses it on subsequent cluster interaction  
