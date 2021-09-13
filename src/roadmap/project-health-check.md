@@ -22,11 +22,11 @@ Complex projects containing many services are quite hard to maintain. Especially
 
 Many of those issues can only be uncovered when applying the Kubernetes manifests to a real cluster. They can't be found by "simply" `linting` the manifests. They may be syntactically correct but specify an unsatisfiable state. This Unikube feature could reveal quite a lot of those issues.
 
-In order to provide a regular project health overview, we're planning to create a feature called "Project Health Check".
+In order to provide a regular project health overview, we're planning to create a feature called "project health check".
 
 ![Project Health Check](./assets/project-health-check.png)
 
-A new service "Project check service" as part of the Unikube platform will perform regular checks on registered projects. It will create an ephemeral Kubernetes cluster (with a configurable/supported Kubernetes provider) and apply all Decks with their environment configuration. That includes Helm values, overrides and other parameters.  
+A new service "project check service" as part of the Unikube platform will perform regular checks on registered projects. It will create an ephemeral Kubernetes cluster (with a configurable/supported Kubernetes provider) and apply all Decks with their environment configuration. That includes Helm values, overrides and other parameters.  
 Once the cluster is up and all manifests applied, the check service will observe the cluster and `pod` states:
 - do all pods enter the `ready`state
 - are there errors or warnings
