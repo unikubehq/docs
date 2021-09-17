@@ -1,2 +1,4 @@
 node_modules
 .idea
+src/.vuepress/dist
+.env

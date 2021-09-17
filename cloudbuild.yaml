@@ -13,6 +13,10 @@ steps:
   env:
     - 'NODE_ENV=production'
   dir: '.'
+  availableSecrets:
+    secretManager:
+      - versionName: projects/281136291560/secrets/unikube-docs-updater/versions/1
+        env: 'ACCESS_TOKEN'
 
 - name: gcr.io/cloud-builders/gsutil
   args: ["-m", "rsync", "-r", "-c", "-d", "./src/.vuepress/dist", "gs://unikube-docs"]

@@ -1,4 +1,7 @@
 const { description } = require('../../package')
+require('dotenv').config()
+const webpack = require('webpack')
+
 
 module.exports = {
   /**
@@ -109,10 +112,15 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
     require('./plugins/custom-footer')
   ],
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@alias': '/'
+  configureWebpack: (config) => {
+    return {
+      plugins: [
+          new webpack.EnvironmentPlugin({...process.env})
+      ],
+     resolve: {
+        alias: {
+          '@alias': '/'
+        }
       }
     }
   }

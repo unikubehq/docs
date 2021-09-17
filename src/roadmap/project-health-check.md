@@ -1,8 +1,11 @@
 ---
 status: voting
+discussionNumber: 28
 ---
 
 # Health check for projects
+<RoadmapWidget/>
+
 
 **Summary**  
 A regular automated check whether a project can actually be fully provisioned. There are many different sources for troubles a Kubernetes environment brings up (some of them are not even in direct control). A service that checks on a regular basis if a cluster can be successfully provisioned (from scratch) will increase the robustness and proactively alert if there are sources for malfunctions.
