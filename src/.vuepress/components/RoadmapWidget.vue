@@ -86,24 +86,3 @@ export default {
   }
 }
 </style>
-
-fetch("https://api.github.com/graphql", {
-  "headers": {
-    "accept": "*/*",
-    "accept-language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
-    "authorization": "bearer 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",
-    "cache-control": "no-cache",
-    "content-type": "application/json",
-    "pragma": "no-cache",
-    "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "cross-site"
-  },
-  "referrer": "http://localhost:8080/",
-  "referrerPolicy": "strict-origin-when-cross-origin",
-  "body": "{\"operationName\":null,\"variables\":{\"number\":94},\"query\":\"query ($number: Int!) {\\n  repository(owner: \\\"unikubehq\\\", name: \\\"cli\\\") {\\n    discussion(number: $number) {\\n      title\\n      upvoteCount\\n      number\\n      url\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\"}",
-  "method": "POST",
-  "mode": "cors"
-});
