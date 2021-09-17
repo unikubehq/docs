@@ -45,7 +45,7 @@ export default {
         Authorization: 'bearer ' + process.env.ACCESS_TOKEN
       },
     })
-    .then(res => this.discussion = res)
+    .then(res => this.discussion = res.data.data.repository.discussion)
 
 
   },
