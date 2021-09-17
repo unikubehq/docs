@@ -29,7 +29,7 @@ export default {
               "number": this.$frontmatter.discussionNumber
           },
           "query": `query ($number: Int!){
-         repository(owner:"unikubehq", name:"cli") {
+         repository(owner:"unikubehq", name:"docs") {
            discussion(number: $number) {
              title
              upvoteCount
