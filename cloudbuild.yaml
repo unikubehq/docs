@@ -8,7 +8,7 @@ steps:
 # Build storybook for Winter&Company.
 #
 - name: node:14
-  entrypoint: bash
+  entrypoint: 'bash'
   args: ['-c', 'export ACCESS_TOKEN=$$ACCESS_TOKEN', 'npm run build',]
   secretEnv: ['ACCESS_TOKEN']
   env:
