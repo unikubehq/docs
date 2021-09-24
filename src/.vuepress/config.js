@@ -99,6 +99,7 @@ module.exports = {
               'osx-brew',
               'project-health-check',
               'remote-clusters',
+              'email-service',
             ]
           },
       ],
