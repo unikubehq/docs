@@ -45,6 +45,10 @@ module.exports = {
     logo: '/img/Unikube-Logo-H.svg',
     nav: [
       {
+        text: 'Guides',
+        link: '/guides/'
+      },
+      {
         text: 'Knowledge Base',
         link: '/knowledge-base/'
       },
@@ -58,6 +62,15 @@ module.exports = {
       }
     ],
     sidebar: {
+       '/guides/': [
+          {
+            title: 'Guides',
+            collapsable: false,
+            children: [
+              'installation',
+            ]
+          }
+      ],
        '/knowledge-base/': [
           {
             title: 'Knowledge Base',
