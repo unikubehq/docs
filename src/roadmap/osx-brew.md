@@ -1,5 +1,5 @@
 ---
-status: voting
+status: in-prgress
 ---
 
 # Mac OS Installation via homebrew
