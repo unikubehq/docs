@@ -7,6 +7,9 @@ features:
 - title: Guides
   icon: /docs/icons/icons-small-organization-roles-blue.svg
   url: /docs/guides/
+- title: CLI Documentation
+  icon: /docs/icons/icons-small-organization-roles-blue.svg
+  url: https://cli.unikube.io
 - title: Knowledge Base
   icon: /docs/icons/icons-small-organization-roles-blue.svg
   url: /docs/knowledge-base/
