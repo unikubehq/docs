@@ -110,6 +110,7 @@ module.exports = {
               'k8s-manifest-support',
               'log-access',
               'osx-brew',
+              'open-projects',
               'project-health-check',
               'remote-clusters',
               'email-service',
