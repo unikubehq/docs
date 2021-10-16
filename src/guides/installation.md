@@ -27,3 +27,10 @@ If you are on OS X, you can install the unikube cli via homebrew:
 brew tap unikubehq/tooling
 brew install unikubehq/tooling/unikube
 ```
+
+To install the latest pre-release use the `--HEAD` flag:
+
+
+```shell
+brew install --HEAD unikubehq/tooling/unikube
+```
