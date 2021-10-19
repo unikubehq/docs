@@ -31,13 +31,13 @@ Since Unikube was built with team collaboration in mind, we created a neat web s
 
 After you login into [app.unikube.io](https://login.unikube.io/auth/realms/unikube/protocol/openid-connect/auth?client_id=frontend&redirect_uri=https%3A%2F%2Fapp.unikube.io%2F&state=3fb1027f-8b5c-4b28-8fe8-791dd998ff74&response_mode=fragment&response_type=code&scope=openid&nonce=3720bb97-7ea1-4587-8028-974f71f5b8d2), you’re asked to join or create a new organization. Feel free to choose any name and invite your colleagues to join.
 
-![Create a new organization1] (./docs/img/screenshot_create-new-organization1.png)
-![Create a new organization2] (./docs/img/screenshot_create-new-organization2.png)
+![Create a new organization1](/docs/img/screenshot_create-new-organization1.png)
+![Create a new organization2](/docs/img/screenshot_create-new-organization2.png)
 
 
 After creating a new organization you’ll be redirected to the project overview page. Since you probably haven’t created a project yet, it will look something like this:
 
-![Create a project list] (./docs/img/screenshot__project-list.png)
+![Create a project list](/docs/img/screenshot__project-list.png)
 
   
 
@@ -54,17 +54,17 @@ The Unikube CLI is based on Python and uses pip for the installation. Thus, plea
 The following command makes the Unikube CLI available on your machine:
 
   
-
+```bash
     sudo pip install unikube
-
+```
   
 
 Unikube needs some other packages to do it’s magic. To verify if all the packages are available, run:
 
   
-
+```bash
     unikube system verify
-
+```
   
 
 If all checks are completed successfully skip the next step.
@@ -74,41 +74,41 @@ If all checks are completed successfully skip the next step.
 Otherwise, run:
 
   
-
+```bash
     unikube system install
-
+```
   
 
 ...and verify again:
 
   
-
+```bash
     unikube system verify
-
+```
   
 
 Everything should be in place to run a Kubernetes on your machine. Time to login!
 
   
-
+```bash
     unikube login
-
+```
   
 
 Feel free to close the login tab after a successful login. Let’s list the available projects:
 
   
-
+```bash
     unikube project list
-
+```
   
 
 At this point, you should see the project created in the "Online Project Creation" section. Neat! Let's spin it up:
 
   
-
+```bash
     unikube project up
-
+```
   
 
 After a short time, you’ve got a running and provisioned Kubernetes cluster setup with your application. That was simple, wasn’t it?
@@ -177,9 +177,9 @@ This example file is taken from our [buzzword counter application.](https://gith
 Now we’re set to execute the switch command:
 
   
-
+```bash
     unikube app switch
-
+```
   
   
 
