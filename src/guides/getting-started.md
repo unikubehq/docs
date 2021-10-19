@@ -30,3 +30,162 @@ You need:
 Since Unikube was built with team collaboration in mind, we created a neat web service that allows you to manage access and updates of your Kubernetes resources with ease.
 
 After you login into [app.unikube.io](https://login.unikube.io/auth/realms/unikube/protocol/openid-connect/auth?client_id=frontend&redirect_uri=https%3A%2F%2Fapp.unikube.io%2F&state=3fb1027f-8b5c-4b28-8fe8-791dd998ff74&response_mode=fragment&response_type=code&scope=openid&nonce=3720bb97-7ea1-4587-8028-974f71f5b8d2), you’re asked to join or create a new organization. Feel free to choose any name and invite your colleagues to join.
+
+image 1
+image 2
+
+
+After creating a new organization you’ll be redirected to the project overview page. Since you probably haven’t created a project yet, it will look something like this:
+
+  
+image3
+
+  
+
+Alright! Let’s hit the “Add new Project” button on the top right corner. You’ll be presented with a form to create a new project. Enter a title, the http(s) path to your helm charts repository, the branch which should be cloned as well as the access credentials if needed. Finish with clicking “Next”! You’ll be asked to add team members from your organization - feel free to skip this step. That’s it for the online setup! Let’s get this thing running on your machine!
+
+  
+
+## Local machine setup
+
+The Unikube CLI is based on Python and uses pip for the installation. Thus, please make sure that pip is installed. If you need help - have a look at the official [pip installation guide](https://pip.pypa.io/en/stable/installation/).
+
+  
+
+The following command makes the Unikube CLI available on your machine:
+
+  
+
+    sudo pip install unikube
+
+  
+
+Unikube needs some other packages to do it’s magic. To verify if all the packages are available, run:
+
+  
+
+    unikube system verify
+
+  
+
+If all checks are completed successfully skip the next step.
+
+  
+
+Otherwise, run:
+
+  
+
+    unikube system install
+
+  
+
+...and verify again:
+
+  
+
+    unikube system verify
+
+  
+
+Everything should be in place to run a Kubernetes on your machine. Time to login!
+
+  
+
+    unikube login
+
+  
+
+Feel free to close the login tab after a successful login. Let’s list the available projects:
+
+  
+
+    unikube project list
+
+  
+
+At this point, you should see the project created in the "Online Project Creation" section. Neat! Let's spin it up:
+
+  
+
+    unikube project up
+
+  
+
+After a short time, you’ve got a running and provisioned Kubernetes cluster setup with your application. That was simple, wasn’t it?
+
+  
+
+As good old Steve Jobs said - we’ve got one more thing (and it is pretty amazing!):
+
+let’s switch a running docker container from your machine into the cluster.
+
+  
+
+First, we create a unikube.yaml file, which provides information about the image and how it should be integrated into the cluster.
+
+  
+
+```yaml
+
+version: '1'
+
+  
+
+apps:
+
+buzzword-counter:
+
+deployment: buzzword-counter-web
+
+build:
+
+context: .
+
+dockerfile: Dockerfile
+
+options:
+
+- compress
+
+env:
+
+- DJANGO_DEBUG: "True"
+
+command: python manage.py collectstatic --noinput --ignore src; python manage.py runserver 0.0.0.0:{port}
+
+volumes:
+
+- .:/code
+
+```
+
+  
+
+This example file is taken from our [buzzword counter application.](https://github.com/Blueshoe/buzzword-counter) It describes the app to be switched into the local cluster. If you’ve worked with docker-compose before it should look pretty familiar.
+
+-   `build` provides the build arguments for the docker image for the container to be built.
+    
+-   `env` allows you to overwrite environment variables within the running container.
+    
+-   `command` is the command to be executed within the container.
+    
+-   `volume` allows you to add a volume mapping from your local disk to the container running in the cluster. This enables pretty cool things like hot code reloading.
+    
+
+  
+
+Now we’re set to execute the switch command:
+
+  
+
+    unikube app switch
+
+  
+  
+
+Unikube switches the images and shows you the output of your command.
+
+  
+
+Done. Amazing!!!
