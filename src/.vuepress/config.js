@@ -68,6 +68,7 @@ module.exports = {
             collapsable: false,
             children: [
               'installation',
+              'getting-started',
             ]
           }
       ],
