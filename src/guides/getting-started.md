@@ -126,37 +126,21 @@ First, we create a unikube.yaml file, which provides information about the image
   
 
 ```yaml
-
 version: '1'
 
-  
-
 apps:
-
-buzzword-counter:
-
-deployment: buzzword-counter-web
-
-build:
-
-context: .
-
-dockerfile: Dockerfile
-
-options:
-
-- compress
-
-env:
-
-- DJANGO_DEBUG: "True"
-
-command: python manage.py collectstatic --noinput --ignore src; python manage.py runserver 0.0.0.0:{port}
-
-volumes:
-
-- .:/code
-
+  buzzword-counter:
+    deployment: buzzword-counter-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+      options:
+        - compress
+    env:
+      - DJANGO_DEBUG: "True"
+    command: python manage.py collectstatic --noinput --ignore src; python manage.py runserver 0.0.0.0:{port}
+    volumes:
+      - .:/code
 ```
 
   
