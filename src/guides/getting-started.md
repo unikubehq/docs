@@ -99,7 +99,7 @@ Feel free to close the login tab after a successful login. Let’s list the avai
 
   
 ```bash
-    unikube project list
+unikube project list
 ```
   
 
