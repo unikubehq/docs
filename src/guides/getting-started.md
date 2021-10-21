@@ -55,7 +55,7 @@ The following command makes the Unikube CLI available on your machine:
 
   
 ```bash
-    sudo pip install unikube
+sudo pip install unikube
 ```
   
 
@@ -63,7 +63,7 @@ Unikube needs some other packages to do it’s magic. To verify if all the packa
 
   
 ```bash
-    unikube system verify
+unikube system verify
 ```
   
 
@@ -75,7 +75,7 @@ Otherwise, run:
 
   
 ```bash
-    unikube system install
+unikube system install
 ```
   
 
@@ -83,7 +83,7 @@ Otherwise, run:
 
   
 ```bash
-    unikube system verify
+unikube system verify
 ```
   
 
@@ -91,7 +91,7 @@ Everything should be in place to run a Kubernetes on your machine. Time to login
 
   
 ```bash
-    unikube login
+unikube login
 ```
   
 
@@ -107,7 +107,7 @@ At this point, you should see the project created in the "Online Project Creatio
 
   
 ```bash
-    unikube project up
+unikube project up
 ```
   
 
@@ -162,7 +162,7 @@ Now we’re set to execute the switch command:
 
   
 ```bash
-    unikube app switch
+unikube app switch
 ```
   
   
