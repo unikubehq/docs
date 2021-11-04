@@ -99,6 +99,7 @@ module.exports = {
               'asset-loader',
               'audit-trail',
               'chart-changelog',
+              'cluster-scripts',
               'dns-resolution',
               'dynamic-deck-creation',
               'env-variable-documentation',
