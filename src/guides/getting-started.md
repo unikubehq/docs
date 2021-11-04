@@ -43,6 +43,10 @@ After creating a new organization you’ll be redirected to the project overview
 
 Alright! Let’s hit the “Add new Project” button on the top right corner. You’ll be presented with a form to create a new project. Enter a title, the http(s) path to your helm charts repository, the branch which should be cloned as well as the access credentials if needed. Finish with clicking “Next”! You’ll be asked to add team members from your organization - feel free to skip this step. That’s it for the online setup! Let’s get this thing running on your machine!
 
+:::tip
+You could use our example helm charts for your first project:
+[Buzzword Charts](https://github.com/Blueshoe/buzzword-charts/).
+:::
   
 
 ## Local machine setup
@@ -156,7 +160,7 @@ This example file is taken from our [buzzword counter application.](https://gith
 -   `volume` allows you to add a volume mapping from your local disk to the container running in the cluster. This enables pretty cool things like hot code reloading.
     
 
-  
+You can find the `helm` charts for the buzzword counter [here](https://github.com/Blueshoe/buzzword-charts/).
 
 Now we’re set to execute the switch command:
 
