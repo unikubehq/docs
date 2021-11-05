@@ -40,7 +40,7 @@
         class="feature"
       >
         <a :href="feature.url">
-          <img :src="feature.icon" alt="">
+<!--          <img :src="feature.icon" alt="">-->
           <h2>{{ feature.title }}</h2>
         </a>
       </div>
@@ -133,6 +133,8 @@ export default {
       display block
       padding 1.5em 0
     h2
+      height: 56px
+      text-align: center
       font-size 1.4rem
       font-weight 500
       border-bottom none
