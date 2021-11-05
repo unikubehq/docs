@@ -18,7 +18,7 @@ Enough introductory talk, let’s get started!
 
 You need:
 
-1.  Helm charts for your application. If you don’t have any, feel free to get started with our [buzzword counter application.](https://github.com/Blueshoe/buzzword-counter) To learn more about helm visit [https://helm.sh/](https://helm.sh/).
+1.  Helm charts for your application. If you don’t have any, feel free to get started with our [buzzword counter application.](https://github.com/Blueshoe/buzzword-charts/) To learn more about helm visit [https://helm.sh/](https://helm.sh/).
     
 2.  A [Unikube](https://app.unikube.io) account.
     
