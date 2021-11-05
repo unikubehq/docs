@@ -41,13 +41,28 @@ After creating a new organization you’ll be redirected to the project overview
 
   
 
-Alright! Let’s hit the “Add new Project” button on the top right corner. You’ll be presented with a form to create a new project. Enter a title, the http(s) path to your helm charts repository, the branch which should be cloned as well as the access credentials if needed. Finish with clicking “Next”! You’ll be asked to add team members from your organization - feel free to skip this step. That’s it for the online setup! Let’s get this thing running on your machine!
+Alright! Let’s hit the “Add new Project” button on the top right corner. You’ll be presented with a form to create a new project. Enter a title, the http(s) path to your helm charts repository, the branch which should be cloned as well as the access credentials if needed. Finish with clicking “Next”! You’ll be asked to add team members from your organization - feel free to skip this step.
 
 :::tip
 You could use our example helm charts for your first project:
 [Buzzword Charts](https://github.com/Blueshoe/buzzword-charts/).
 :::
   
+
+If you're working with helm charts you need to define the values with which the charts are rendered.
+When opening the project edit the deck, you would like to install later.
+
+![Create a new organization1](/docs/img/edit_deck.png)
+
+In the deck's environment define the values `directory` or `file` which should be used to render the helm charts.
+
+![Create a new organization1](/docs/img/edit_values.png)
+
+:::tip
+A deck is the smallest installable unit in on Unikube.
+:::
+
+That’s it for the online setup! Let’s get this thing running on your machine!
 
 ## Local machine setup
 
