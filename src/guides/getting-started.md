@@ -130,7 +130,22 @@ unikube project up
 ```
   
 
-After a short time, you’ve got a running and provisioned Kubernetes cluster setup with your application. That was simple, wasn’t it?
+After a short time, you’ve got a running and provisioned Kubernetes cluster.
+
+Let's install the deck containing the application:
+
+```bash
+unikube deck install
+```
+
+:::tip
+Run following command inspect the current state of your cluster 
+```bash
+watch unikube app list --deck buzzword-counter
+```
+:::
+
+After some time you've got your cluster setup with your application. That was simple, wasn’t it?
 
   
 
