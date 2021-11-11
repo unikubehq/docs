@@ -50,33 +50,23 @@ export default {
           copyright: "© Unikube 2021 © Blueshoe GmbH 2021",
           icons: "/docs/icons/footer_icons.svg",
           iconTagline: "Unikube powered by Blueshoe Digital Products",
-          imprint: "https://www.blueshoe.de/impressum",
-          privacy: "https://www.blueshoe.de/datenschutz/",
+          imprint: "https://unikube.io/legal-notice",
+          privacy: "https://unikube.io/data-privacy",
           contact: {
-            email: "unikube@blueshoe.de",
-            phone: "+49 89 954 594 235",
-            emailUrl: "mailto:unikube@blueshoe.de",
-            phoneUrl: "tel:+49 89 954 594 235",
+            email: "info@unikube.io",
+            phone: "+49 89 954 594 230",
+            emailUrl: "mailto:info@unikube.io",
+            phoneUrl: "tel:+49 89 954 594 230",
           },
           linkSections: {
-            BlueshoeSection: [
-              {
-                title: "Blueshoe",
-                url: "https://www.blueshoe.de",
-              },
-              {
-                title: "List of Features",
-                url: "https://unikube.io",
-              },
-            ],
             UnikubeSection: [
               {
                 title: "Unikube",
-                url: "https://www.blueshoe.de",
+                url: "https://unikube.io",
               },
               {
                 title: "List of Features",
-                url: "https://unikube.io",
+                url: "https://unikube.io/features",
               },
             ],
           },
