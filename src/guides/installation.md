@@ -48,7 +48,7 @@ brew install --HEAD unikubehq/tooling/unikube
 After the installation is complete, you can verify your installation and check the installed version. Open up a new shell and run:
 
 ```shell
-unikube --version
+unikube version
 ```
 
 Now you can get started by logging in into your account. You don’t have an Unikube account? Register at [unikube.io](https://unikube.io/)!
