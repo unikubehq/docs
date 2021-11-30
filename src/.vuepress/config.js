@@ -69,6 +69,8 @@ module.exports = {
             children: [
               'installation',
               'getting-started',
+              'provision-development-environment',
+              'developing-with-unikube',
             ]
           }
       ],
