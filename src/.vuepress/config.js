@@ -45,6 +45,10 @@ module.exports = {
     logo: '/img/Unikube-Logo-H.svg',
     nav: [
       {
+        text: 'Getting Started',
+        link: '/getting-started/',
+      },
+      {
         text: 'Guides',
         link: '/guides/'
       },
@@ -62,12 +66,23 @@ module.exports = {
       }
     ],
     sidebar: {
+        '/getting-started/': [
+          {
+            title: 'Getting Started',
+            collapsable: false,
+            children: [
+              'installation',
+              'project-setup',
+              'developing-with-unikube',
+              'next-steps'
+            ]
+          }
+        ],
        '/guides/': [
           {
             title: 'Guides',
             collapsable: false,
             children: [
-              'installation',
               'getting-started',
               'provision-development-environment',
               'developing-with-unikube',
@@ -129,6 +144,7 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'vuepress-plugin-element-tabs',
     require('./plugins/custom-footer')
   ],
   configureWebpack: (config) => {
