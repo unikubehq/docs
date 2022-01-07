@@ -4,11 +4,15 @@
 
 You need:
 
-1.  Helm charts for your application. If you don’t have any, feel free to get started with our [buzzword counter application.](https://github.com/Blueshoe/buzzword-charts/) To learn more about helm visit [https://helm.sh/](https://helm.sh/).
+1. Helm charts for your application. If you don’t have any, feel free to get started with one of our sample applications:
+   * [buzzword counter (Python/Django)](https://github.com/Blueshoe/buzzword-charts/)
+   * [polls (Java/Spring)](https://github.com/Blueshoe/java-spring-example-charts/)  
 
-2.  A [Unikube](https://app.unikube.io) account.
+   To learn more about helm visit [https://helm.sh/](https://helm.sh/).
 
-3.  A docker image that you’d like to swap into the cluster. Makes the most sense when it’s an image (maybe a newer version) of one of your services from your helm charts.
+2. A [Unikube](https://app.unikube.io) account.
+
+3. A docker image that you’d like to swap into the cluster. Makes the most sense when it’s an image (maybe a newer version) of one of your services from your helm charts.
 
 
 ## Online Project Creation
@@ -27,14 +31,23 @@ After creating a new organization you’ll be redirected to the project overview
 Alright! Let’s hit the “Add new Project” button on the top right corner. You’ll be presented with a form to create a new project. Enter a title, the http(s) path to your helm charts repository, the branch which should be cloned as well as the access credentials if needed. Finish with clicking “Next”! You’ll be asked to add team members from your organization - feel free to skip this step.
 
 :::tip
-You could use our example helm charts for your first project:
-[Buzzword Charts](https://github.com/Blueshoe/buzzword-charts/).
+You could use one of our example helm charts for your first project:
+* [Buzzword Charts](https://github.com/Blueshoe/buzzword-charts/)
+* [Polls Charts](https://github.com/Blueshoe/java-spring-example-charts/)
 :::
 
 If you're working with helm charts you need to define the values with which the charts are rendered.
 When opening the project edit the deck, you would like to install later.
 
+:::: tabs type card
+
+::: tab buzzword
 ![Create a new organization1](/docs/img/edit_deck.png)
+:::
+::: tab polls
+![Create a new organization1](/docs/img/edit_deck.png)
+:::
+::::
 
 In the deck's environment define the values `directory` or `file` which should be used to render the helm charts.
 
