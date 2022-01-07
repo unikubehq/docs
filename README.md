@@ -4,3 +4,7 @@
 
 # Unikube Docs
 Unikube documentation, cloud native knowledgebase.
+
+# Local Development
+
+First, run `npm install`.  To then start the local dev server, run `vuepress dev src`.
