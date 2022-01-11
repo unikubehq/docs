@@ -57,8 +57,8 @@ apps:
       context: <Path to Docker build root>
       dockerfile: <Path to Dockerfile>
       target: <Dockerfile build target>
-      deployment: <Name of the Deployment in the cluster>
-      port: <Number of the container port to be switched> (optional)
+    deployment: <Name of the Deployment in the cluster>
+    port: <Number of the container port to be switched> (optional)
     command: <Starting command> # overwrite the run command of the services during development
     volumes:
       - <Path to the volume mounts> # overwrite the container's source directory with your working tree
