@@ -46,7 +46,7 @@ module.exports = {
     nav: [
       {
         text: 'Getting Started',
-        link: '/getting-started/',
+        link: '/guides/getting-started/',
       },
       {
         text: 'Guides',
@@ -66,7 +66,7 @@ module.exports = {
       }
     ],
     sidebar: {
-        '/getting-started/': [
+        '/guides/getting-started/': [
           {
             title: 'Getting Started',
             collapsable: false,
@@ -83,7 +83,7 @@ module.exports = {
             title: 'Guides',
             collapsable: false,
             children: [
-              'getting-started',
+              [ '/guides/getting-started/', 'Getting Started' ],
               'provision-development-environment',
               'developing-with-unikube',
             ]
