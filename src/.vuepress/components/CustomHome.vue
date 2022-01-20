@@ -3,7 +3,7 @@
     class="home"
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
   >
-    <CustomNavbar></CustomNavbar>
+    <Navbar></Navbar>
     <header class="hero">
       <img
         v-if="data.heroImage"
@@ -52,11 +52,11 @@
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
-import CustomNavbar from './CustomNavbar.vue'
+import Navbar from '../theme/components/Navbar.vue'
 import SearchBox from '@SearchBox'
 export default {
   name: 'Home',
-  components: { NavLink, CustomNavbar, SearchBox },
+  components: { NavLink, Navbar, SearchBox },
   computed: {
     data () {
       return this.$page.frontmatter
