@@ -47,7 +47,7 @@ export default {
     return {
       data: {
         footer: {
-          copyright: "© Unikube 2021 © Blueshoe GmbH 2021",
+          copyright: "© Unikube 2022 © Blueshoe GmbH 2022",
           icons: "/docs/icons/footer_icons.svg",
           iconTagline: "Unikube powered by Blueshoe Digital Products",
           imprint: "https://unikube.io/legal-notice",
