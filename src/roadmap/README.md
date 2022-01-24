@@ -1,5 +1,5 @@
 # Roadmap
 
-This is the unikube roadmap.
+This is the Unikube roadmap, a list of exciting features that lie ahead.
 
 <RoadmapStatus/>
