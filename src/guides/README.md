@@ -8,9 +8,9 @@ This is a collection of our Unikube guides.
   
 These guides explain how to use Unikube in your development process, how to work with the CLI, how to be faster and evidently how to be more productive developing with the help of Unikube.  
   
-You can get started right away, all you need to do, is to install Unikube on your laptop: 
+You can get started right away, all you need to do, is to install Unikube on your laptop. 
 
--   [Getting started](/getting-started/installation.html)
+-   [Getting started now](/getting-started/installation.html)
 -   [Provision of a Development Environment](/guides/provision-development-environment.html)
 -   [Developing with Unikube](/guides/developing-with-unikube.html)
 
