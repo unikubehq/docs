@@ -8,9 +8,9 @@ Our knowledge base contains information about Cloud Native technologies, concept
 -   [Docker](/knowledge-base/docker.html)
 -   [Microservices](/knowledge-base/microservices.html)
 -   [Kubernetes](/knowledge-base/kubernetes.html)
--   [Load Balancing](/knowledge-base/kubernetes.html)
+-   [Load Balancing](/knowledge-base/load-balancing.html)
 -   [Application Cluster](/knowledge-base/application-cluster.html)
--   [Cloud Hosting](/knowledge-base/application-cluster.html)
+-   [Cloud Hosting](/knowledge-base/cloud-hosting.html)
 -   [Kubernetes Tools](/knowledge-base/kubernetes-tools.html)
 
-Found a mistake? Something is missing? Let's talk - [open an issue on Github](https://github.com/unikubehq/docs/issues).
+Found a mistake? Something is missing? Let's talk - [open an issue on Github](/docs/issues).
