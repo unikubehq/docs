@@ -16,6 +16,6 @@ You can get started right away, all you need to do, is to install Unikube on you
 
 We are working on making our guides more comprehensive every day. If you have an idea for an important guideline, please [share it with us](/discussions/categories/ideas).  
   
-Found a mistake? Something is missing? Let's talk - just open an issue on [Github](/issues).  
+Found a mistake? Something is missing? Let's talk - just open an issue on [Github](https://github.com/unikubehq/docs/issues).  
   
 If you have more questions about Unikube, you can also find answers in our [FAQs](https://unikube.io/faqs/).
