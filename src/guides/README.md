@@ -14,7 +14,7 @@ You can get started right away, all you need to do, is to install Unikube on you
 -   [Provision of a Development Environment](/guides/provision-development-environment.html)
 -   [Developing with Unikube](/guides/developing-with-unikube.html)
 
-We are working on making our guides more comprehensive every day. If you have an idea for an important guideline, please [share it with us](/discussions/categories/ideas).  
+We are working on making our guides more comprehensive every day. If you have an idea for an important guideline, please [share it with us](https://github.com/unikubehq/docs/discussions/categories/ideas).  
   
 Found a mistake? Something is missing? Let's talk - just open an issue on [Github](https://github.com/unikubehq/docs/issues).  
   
