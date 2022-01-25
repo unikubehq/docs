@@ -1,6 +1,6 @@
 # Next steps
 
-We are always working on making Unikube an even better product. You can find our next developing steps in this [roadmap](https://unikube.io/docs/roadmap/).  
+We are always working on making Unikube an even better product. You can find our next developing steps in this [roadmap](/docs/roadmap/).  
   
 If you want more insights about developing with Unikube, please visit the [FAQ](https://unikube.io/faqs/) section on our [website](https://unikube.io).  
   
