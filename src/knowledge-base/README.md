@@ -13,4 +13,4 @@ Our knowledge base contains information about Cloud Native technologies, concept
 -   [Cloud Hosting](/knowledge-base/cloud-hosting.html)
 -   [Kubernetes Tools](/knowledge-base/kubernetes-tools.html)
 
-Found a mistake? Something is missing? Let's talk - [open an issue on Github](/docs/issues).
+Found a mistake? Something is missing? Let's talk - [open an issue on Github](https://github.com/unikubehq/docs/issues).
