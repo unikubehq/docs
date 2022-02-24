@@ -4,11 +4,16 @@
 
 You need:
 
-1.  Helm charts for your application. If you don’t have any, feel free to get started with our [buzzword counter application.](https://github.com/Blueshoe/buzzword-charts/) To learn more about helm visit [https://helm.sh/](https://helm.sh/).
+**1.  Helm charts for your application.** If you don’t have any, feel free to get started with our [buzzword counter application.](https://github.com/Blueshoe/buzzword-charts/) To learn more, visit [helm](https://helm.sh/).
 
-2.  A [Unikube](https://app.unikube.io) account.
+**2.  A Unikube account.**
+- Creating an account is super quick. Just click [here](https://app.unikube.io).  
+- You want to delete your login data? No problem. Just drop us a line at [support@unikube.io](mailto:support@unikube.io)
+- Alternatively, you can use these test credentials (without creating your own account) to try out the CLI, before creating your own account:
 
-3.  A docker image that you’d like to swap into the cluster. Makes the most sense when it’s an image (maybe a newer version) of one of your services from your helm charts.
+>     User: sandbox@unikube.io Password: #4kEMU8aPm
+
+**3.  A docker image that you’d like to swap into the cluster.** Makes the most sense when it’s an image (maybe a newer version) of one of your services from your helm charts.
 
 
 ## Online Project Creation
