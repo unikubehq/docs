@@ -98,3 +98,8 @@ unikube version
 ```
 
 Now you can get started by logging in into your account. You don’t have an Unikube account? Register at [unikube.io](https://unikube.io/)!
+Or use these test credentials (without creating your own account) to try it out:
+> ```
+> User: sandbox@unikube.io Password: #4kEMU8aPm
+> ```
+
