@@ -24,6 +24,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
+    ['script', {}, `
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MKVRSF6');
+    `],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0'}],
     ['meta', { name: 'theme-color', content: '#45d093' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -145,7 +148,7 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     'vuepress-plugin-element-tabs',
-    require('./plugins/custom-footer')
+    require('./plugins/global-ui')
   ],
   configureWebpack: (config) => {
     return {
