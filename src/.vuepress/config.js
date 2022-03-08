@@ -31,7 +31,8 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#45d093' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'icon', href: '/favicon.ico'}]
+    ['link', { rel: 'icon', href: '/favicon.ico'}],
+    ['script', { type: 'text/javascript', id: 'hs-script-loader', async: true, defer: true, src: 'https://js.hs-scripts.com/2979748.js'}],
   ],
 
   /**
