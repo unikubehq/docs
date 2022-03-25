@@ -41,10 +41,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    repo: 'unikubehq/cli',
+    docsRepo: 'unikubehq/docs',
+    docsDir: 'src',
+    docsBranch: 'main',
+    editLinks: true,
+    editLinkText: 'Help us improve this page!',
     lastUpdated: false,
     logo: '/img/Unikube-Logo-H.svg',
     nav: [
