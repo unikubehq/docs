@@ -1,31 +1,7 @@
 # Developing with Unikube
-The Unikube CLI is based on Python and uses pip for the installation. Thus, please make sure that pip is installed. If you need help - have a look at the official [pip installation guide](https://pip.pypa.io/en/stable/installation/).
 
-The following command makes the Unikube CLI available on your machine:
-
-```bash
-sudo pip install unikube
-```
-
-Unikube needs some other packages to do it’s magic. To verify if all the packages are available, run:
-
-```bash
-unikube system verify
-```
-
-If all checks are completed successfully skip the next step.
-
-Otherwise, run:
-
-```bash
-unikube system install
-```
-
-...and verify again:
-
-```bash
-unikube system verify
-```
+Make sure Unikube is [installed and setup
+correctly](/docs/guides/getting-started).
 
 Everything should be in place to run a Kubernetes on your machine. Time to login!
 

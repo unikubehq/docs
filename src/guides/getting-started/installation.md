@@ -4,6 +4,7 @@
 - [Mac](#mac)
 - [Windows](#windows)
 - [Installation from Source](#installation-from-source)
+- [Post Installation Steps](#post-installation-steps)
 
 ## Linux
 
@@ -30,6 +31,8 @@ The Unikube cli is developed for and tested with Python 3.8 and 3.9.
 ::: details Note
 Python 2 is not supported. Therefore, depending on your local python installation, you may need to use `pip3`.
 :::
+
+[Only one step and we are done!](#post-installation-steps)
 
 ## Mac
 
@@ -80,6 +83,8 @@ pip install --upgrade unikube --pre
 
 ::::
 
+[Only one step and we are done!](#post-installation-steps)
+
 ## Windows
 
 WIP
@@ -89,12 +94,25 @@ WIP
 You can download the source code as zip or tar archive from the
 [Github release page](https://github.com/unikubehq/cli/releases).
 
-## Version
+## Post Installation Steps
 
 After the installation is complete, you can verify your installation and check the installed version. Open up a new shell and run:
 
 ```shell
 unikube version
+```
+
+Great, unikube was installed successfully! Now lets see if everything is ready:
+
+```shell
+unikube verify
+```
+
+If some checks are failing, Unikube can take care of setting everything up for
+you:
+
+```shell
+unikube install
 ```
 
 Now you can get started by logging in into your account. You don’t have an Unikube account? Register at [unikube.io](https://unikube.io/)!
