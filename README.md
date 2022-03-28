@@ -5,6 +5,11 @@
 # Unikube Docs
 Unikube documentation, cloud native knowledgebase.
 
-# Local Development
+## Local Development
 
 First, run `npm install`.  To then start the local dev server, run `npm run dev`.
+
+## Statics
+
+Vuepress will serve content from `src/.vuepress/public` under the base url (`https://unikube.io/docs/` in this case).
+To reference files in Markdown, i.e. to add images, using a path like `/docs/img/image.png` will serve `src/.vuepress/public/img/image.png`.
