@@ -35,7 +35,7 @@ Python 2 is not supported. Therefore, depending on your local python installatio
 
 For Mac, we recommend installing the Unikube CLI via Homebrew. However, you can also use pip as described below:
 
-:::: tabs type card
+:::: tabs type:board-card
 
 ::: tab Homebrew
 
