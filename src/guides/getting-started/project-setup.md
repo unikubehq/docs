@@ -41,7 +41,8 @@ When opening the project edit the deck, you would like to install later.
 
 ![Create a new organization1](/docs/img/edit_deck.png)
 
-In the deck's environment define the values `directory` or `file` which should be used to render the helm charts.
+In the decks settings make sure a values path is set, if you are using our
+example this might be `/buzzword-counter/values.yaml`.
 
 ![Create a new organization1](/docs/img/edit_values.png)
 
